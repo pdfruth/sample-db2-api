@@ -4,7 +4,7 @@ metadata:
 projects:
   - name: employees-api
     source:
-      location: 'https://github.com/zosconnect/sample-db2-api.git'
+      location: 'https://github.com/pdfruth/sample-db2-api.git'
       type: github
       branch: main
       sparseCheckoutDir: start
@@ -23,7 +23,7 @@ components:
         value: /projects/employees-api/start
     memoryLimit: 4927M
     type: dockerimage
-    image: 'icr.io/zosconnect/ibm-zcon-designer:3.0.58'
+    image: 'icr.io/zosconnect/ibm-zcon-designer:3.0.63'
     alias: zosconnect
   - id: redhat/vscode-yaml/latest
     type: chePlugin
